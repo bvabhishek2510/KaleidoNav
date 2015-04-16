@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "configViewController.h"
+#import "ramViewController.h"
 
 @interface rchelikaAppDelegate : UIResponder <UIApplicationDelegate>
 

@@ -19,6 +19,10 @@
 		3142E1801905F93A004886EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3142E1681905F93A004886EB /* UIKit.framework */; };
 		3142E1881905F93A004886EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3142E1861905F93A004886EB /* InfoPlist.strings */; };
 		3142E18A1905F93B004886EB /* KaleidoNavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3142E1891905F93B004886EB /* KaleidoNavTests.m */; };
+		3142E1961905F983004886EB /* configViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3142E1941905F983004886EB /* configViewController.m */; };
+		3142E1971905F983004886EB /* configViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3142E1951905F983004886EB /* configViewController.xib */; };
+		3142E19A1905F9A4004886EB /* ramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3142E1991905F9A4004886EB /* ramViewController.m */; };
+		3142E19D1905F9E8004886EB /* ramview.m in Sources */ = {isa = PBXBuildFile; fileRef = 3142E19C1905F9E8004886EB /* ramview.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,13 @@
 		3142E1851905F93A004886EB /* KaleidoNavTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KaleidoNavTests-Info.plist"; sourceTree = "<group>"; };
 		3142E1871905F93A004886EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3142E1891905F93B004886EB /* KaleidoNavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KaleidoNavTests.m; sourceTree = "<group>"; };
+		3142E1931905F983004886EB /* configViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = configViewController.h; sourceTree = "<group>"; };
+		3142E1941905F983004886EB /* configViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = configViewController.m; sourceTree = "<group>"; };
+		3142E1951905F983004886EB /* configViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = configViewController.xib; sourceTree = "<group>"; };
+		3142E1981905F9A4004886EB /* ramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ramViewController.h; sourceTree = "<group>"; };
+		3142E1991905F9A4004886EB /* ramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ramViewController.m; sourceTree = "<group>"; };
+		3142E19B1905F9E8004886EB /* ramview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ramview.h; sourceTree = "<group>"; };
+		3142E19C1905F9E8004886EB /* ramview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ramview.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +122,13 @@
 				3142E1741905F93A004886EB /* rchelikaAppDelegate.m */,
 				3142E1761905F93A004886EB /* Images.xcassets */,
 				3142E16B1905F93A004886EB /* Supporting Files */,
+				3142E1931905F983004886EB /* configViewController.h */,
+				3142E1941905F983004886EB /* configViewController.m */,
+				3142E1951905F983004886EB /* configViewController.xib */,
+				3142E1981905F9A4004886EB /* ramViewController.h */,
+				3142E1991905F9A4004886EB /* ramViewController.m */,
+				3142E19B1905F9E8004886EB /* ramview.h */,
+				3142E19C1905F9E8004886EB /* ramview.m */,
 			);
 			path = KaleidoNav;
 			sourceTree = "<group>";
@@ -221,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3142E16F1905F93A004886EB /* InfoPlist.strings in Resources */,
+				3142E1971905F983004886EB /* configViewController.xib in Resources */,
 				3142E1771905F93A004886EB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,7 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3142E1711905F93A004886EB /* main.m in Sources */,
+				3142E19D1905F9E8004886EB /* ramview.m in Sources */,
+				3142E19A1905F9A4004886EB /* ramViewController.m in Sources */,
 				3142E1751905F93A004886EB /* rchelikaAppDelegate.m in Sources */,
+				3142E1961905F983004886EB /* configViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
